@@ -4,14 +4,15 @@
   "description": "A sandbox skeleton project for typescript in web browser.",
   "main": "lib/app.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "node fuse.js"
   },
   "author": "lambdalisue",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "parcel-bundler": "^1.11.0",
-    "typescript": "^3.3.3"
+    "fuse-box": "^3.7.1",
+    "terser": "^3.16.1",
+    "typescript": "^3.3.3",
+    "uglify-js": "^3.4.9"
   }
 }
